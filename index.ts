@@ -10,9 +10,9 @@ client.on("qr", (cod) => {
 
 client.on("ready", () => console.log("The bot is ready!"));
 
-function log(txt:string) {
-    console.log(new Date() + " : " + txt);
-}
+// function log(txt:string) {
+//     console.log(new Date() + " : " + txt);
+// }
 
 client.on("message_create", (msg) => {
     if(msg.body.includes("!test")) {
